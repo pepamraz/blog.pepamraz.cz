@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>blog.pepamraz.cz</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.pepamraz.cz/</link>
     <description>Recent content on blog.pepamraz.cz</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>cs</language>
     <lastBuildDate>Wed, 05 Feb 2025 02:57:15 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.pepamraz.cz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proč se vyhnout vanilla CSS a využívat Tailwind CSS 🌊</title>
-      <link>http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/</link>
+      <link>https://blog.pepamraz.cz/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/</link>
       <pubDate>Wed, 05 Feb 2025 02:57:15 +0100</pubDate>
-      <guid>http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/</guid>
+      <guid>https://blog.pepamraz.cz/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/</guid>
       <description>&lt;h2 id=&#34;kde-se-css-vzalo-&#34;&gt;Kde se CSS vzalo? 🤷🏻‍♂️&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;css-gif.webp&#34; alt=&#34;CSS žaluzie&#34;  /&gt;
 
