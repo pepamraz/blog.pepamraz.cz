@@ -1,0 +1,9 @@
+baseURL = 'https://blog.pepamraz.cz'
+languageCode = 'cs'
+title = 'blog.pepamraz.cz'
+theme = 'PaperMod'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

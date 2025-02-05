@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blog.pepamraz.cz</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on blog.pepamraz.cz</description>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>cs</language>
+    <lastBuildDate>Wed, 05 Feb 2025 02:57:15 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proč se vyhnout vanilla CSS a využívat Tailwind CSS 🌊</title>
+      <link>http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/</link>
+      <pubDate>Wed, 05 Feb 2025 02:57:15 +0100</pubDate>
+      <guid>http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/</guid>
+      <description>&lt;h2 id=&#34;kde-se-css-vzalo-&#34;&gt;Kde se CSS vzalo? 🤷🏻‍♂️&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;CSS žaluzie&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/css-gif.webp&#34;&gt;
+&lt;strong&gt;CSS tady bylo, je a i bude&lt;/strong&gt;. To se dá říct ale i o strojovém kódu a píše ho snad někdo ručně? Ne! Lidi se vyvýjejí a nyní už je stejná blbost psát ve vanilla CSS jako psát strojový kód. V tomto objektivním článku si řekneme proč tomu tak je a &lt;strong&gt;proč už bych nikdy po vanilla CSS nesáhl&lt;/strong&gt; a proč jsem tak &lt;strong&gt;rád že Tailwind CSS vůbec existuje!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
