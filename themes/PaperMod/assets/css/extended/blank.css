@@ -1,0 +1,18 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+
+h2:not(header.entry-header h2),
+h3:not(header.entry-header h3),
+h4:not(header.entry-header h4),
+h5:not(header.entry-header h5),
+h6:not(header.entry-header h6) {
+    margin-top: 4rem;
+}
+
+::selection{
+    background-color: #525fe1;
+    color: #f8f6f7;
+}
