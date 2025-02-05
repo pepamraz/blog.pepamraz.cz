@@ -1,8 +1,10 @@
-baseURL = 'https://blog.pepamraz.cz'
+baseURL = "https://blog.pepamraz.cz/"
 defaultContentLanguage = "cs"
 languageCode = "cs"
 title = 'blog.pepamraz.cz'
 theme = 'PaperMod'
+relativeURLs = true
+canonifyURLs = true
 
 [markup]
   [markup.goldmark]
