@@ -1,7 +1,12 @@
 +++
 date = '2025-02-05T02:57:15+01:00'
-draft = true
+draft = false
 title = 'Proč se vyhnout vanilla CSS a využívat Tailwind CSS 🌊'
+[cover]
+  image = "images/tailwind-css-thumbnail.webp"
+  alt = "Tailwind CSS - moderní stylování"
+  caption = "Ukázka stylování s Tailwind CSS"
+  relative = false  # Pokud je obrázek v `static/`
 +++
 
 ## Kde se CSS vzalo? 🤷🏻‍♂️
@@ -32,6 +37,8 @@ Pokud píšete CSS klasicky, máte několik možností: buď budete mít obří 
 
 ### Konzistence kódu ✍️✍🏻✍🏿
 Když píšete vanilla CSS, každý vývojář má trochu jiný styl psaní, trochu jiné názvy tříd, jiný přístup k organizaci kódu a taky je každý trochu jinak psychicky narušený. V Tailwindu tohle neřešíte – všechny utility jsou dané, nemění se a vy jen skládáte UI jako LEGO.
+
+![Klasické chování CSS na webu](css-meme.jpg)
 
 ### Rychlost vývoje ⏩📈
 Tailwind šetří čas a peníze, protože nemusíte přepínat mezi HTML a CSS souborem a platit za psychoterapeuta. Vše děláte rovnou v HTML a okamžitě vidíte výsledek. Chcete přidat padding? p-4. Změnit barvu? bg-blue-500. Flexbox? flex. Hotovo.

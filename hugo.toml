@@ -1,5 +1,6 @@
 baseURL = 'https://blog.pepamraz.cz'
-languageCode = 'cs'
+defaultContentLanguage = "cs"
+languageCode = "cs"
 title = 'blog.pepamraz.cz'
 theme = 'PaperMod'
 

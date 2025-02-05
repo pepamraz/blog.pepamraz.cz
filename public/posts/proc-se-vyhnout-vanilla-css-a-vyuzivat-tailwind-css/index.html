@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="cs" dir="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
 CSS tady bylo, je a i bude. To se dá říct ale i o strojovém kódu a píše ho snad někdo ručně? Ne! Lidi se vyvýjejí a nyní už je stejná blbost psát ve vanilla CSS jako psát strojový kód. V tomto objektivním článku si řekneme proč tomu tak je a proč už bych nikdy po vanilla CSS nesáhl a proč jsem tak rád že Tailwind CSS vůbec existuje!">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.6123260794e0051346f8bdbc7c8bf42e315dc1ad015d53d4aedbb3848fd44d88.css" integrity="sha256-YSMmB5TgBRNG&#43;L28fIv0LjFdwa0BXVPUrtuzhI/UTYg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d036e8f39d181e3214703519077636b563319ba677f0fb6d9abe04c1a251945e.css" integrity="sha256-0Dbo850YHjIUcDUZB3Y2tWMxm6Z38Pttmr4EwaJRlF4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -20,7 +20,7 @@ CSS tady bylo, je a i bude. To se dá říct ale i o strojovém kódu a píše h
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/">
+<link rel="alternate" hreflang="cs" href="http://localhost:1313/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/">
 <noscript>
     <style>
         #theme-toggle,
@@ -110,17 +110,14 @@ CSS tady bylo, je a i bude. To se dá říct ale i o strojovém kódu a píše h
     
     <h1 class="post-title entry-hint-parent">
       Proč se vyhnout vanilla CSS a využívat Tailwind CSS 🌊
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h1>
-    <div class="post-meta"><span title='2025-02-05 02:57:15 +0100 CET'>February 5, 2025</span>
+    <div class="post-meta"><span title='2025-02-05 02:57:15 +0100 CET'>února 5, 2025</span>
 
 </div>
   </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/tailwind-css-thumbnail.webp" alt="Tailwind CSS - moderní stylování">
+        <p>Ukázka stylování s Tailwind CSS</p>
+</figure>
   <div class="post-content"><h2 id="kde-se-css-vzalo-">Kde se CSS vzalo? 🤷🏻‍♂️<a hidden class="anchor" aria-hidden="true" href="#kde-se-css-vzalo-">#</a></h2>
 <p><img alt="CSS žaluzie" loading="lazy" src="/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/css-gif.webp">
 <strong>CSS tady bylo, je a i bude</strong>. To se dá říct ale i o strojovém kódu a píše ho snad někdo ručně? Ne! Lidi se vyvýjejí a nyní už je stejná blbost psát ve vanilla CSS jako psát strojový kód. V tomto objektivním článku si řekneme proč tomu tak je a <strong>proč už bych nikdy po vanilla CSS nesáhl</strong> a proč jsem tak <strong>rád že Tailwind CSS vůbec existuje!</strong></p>
@@ -143,6 +140,7 @@ Kdo někdy pracoval na větším projektu s vanilla CSS, tak ví, že v tom rych
 <p>Pokud píšete CSS klasicky, máte několik možností: buď budete mít obří soubor plný všeho možného, nebo stovky menších souborů, které se budou v produkci složitě spravovat. Tailwind tento problém řeší tím, že do produkce se dostane pouze ty styly, které skutečně používáte, díky PurgeCSS.</p>
 <h3 id="konzistence-kódu-">Konzistence kódu ✍️✍🏻✍🏿<a hidden class="anchor" aria-hidden="true" href="#konzistence-kódu-">#</a></h3>
 <p>Když píšete vanilla CSS, každý vývojář má trochu jiný styl psaní, trochu jiné názvy tříd, jiný přístup k organizaci kódu a taky je každý trochu jinak psychicky narušený. V Tailwindu tohle neřešíte – všechny utility jsou dané, nemění se a vy jen skládáte UI jako LEGO.</p>
+<p><img alt="Klasické chování CSS na webu" loading="lazy" src="/posts/proc-se-vyhnout-vanilla-css-a-vyuzivat-tailwind-css/css-meme.jpg"></p>
 <h3 id="rychlost-vývoje-">Rychlost vývoje ⏩📈<a hidden class="anchor" aria-hidden="true" href="#rychlost-vývoje-">#</a></h3>
 <p>Tailwind šetří čas a peníze, protože nemusíte přepínat mezi HTML a CSS souborem a platit za psychoterapeuta. Vše děláte rovnou v HTML a okamžitě vidíte výsledek. Chcete přidat padding? p-4. Změnit barvu? bg-blue-500. Flexbox? flex. Hotovo.</p>
 <h2 id="ale-tailwind-dělá-html-nečitelným-">Ale Tailwind dělá HTML nečitelným! 👨🏻‍🦯‍➡️<a hidden class="anchor" aria-hidden="true" href="#ale-tailwind-dělá-html-nečitelným-">#</a></h2>
@@ -175,9 +173,8 @@ Kdo někdy pracoval na větším projektu s vanilla CSS, tak ví, že v tom rych
         <span>&copy; 2025 <a href="http://localhost:1313/">blog.pepamraz.cz</a></span> · 
 
     <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        Součástí projektu
+        <a href="https://pepamraz.cz/" target="_blank">pepamraz.cz</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
