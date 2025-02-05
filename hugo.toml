@@ -8,3 +8,15 @@ theme = 'PaperMod'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[taxonomies]
+  social = "social"
+
+[params]
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/pepamraz"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/pepamraz"
