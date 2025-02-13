@@ -3,7 +3,7 @@ name: Deploy Hugo to GitHub Pages
 on:
   push:
     branches:
-      - master  # Spustí se při pushnutí do masteru
+      - master
 
 jobs:
   deploy:
