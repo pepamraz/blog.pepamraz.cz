@@ -1,10 +1,35 @@
 baseURL = "https://blog.pepamraz.cz/"
 defaultContentLanguage = "cs"
 languageCode = "cs"
-title = 'blog.pepamraz.cz'
+title = 'Sarkastický blog o programování - blog.pepamraz.cz 💻'
 theme = 'PaperMod'
 relativeURLs = true
 canonifyURLs = true
+
+[params]
+[params.homeInfoParams]
+  Title = "Sarkastický blog o programování 💻"
+  Content = """
+  Vítejte na mém blogu, kde se sarkasmus a programování setkávají! 
+  Tento blog je věnován všem, kteří se chtějí dozvědět více o programování, 
+  ale zároveň se chtějí pobavit. Najdete zde články plné užitečných informací, 
+  tipů a triků, ale také vtipných poznámek a sarkastických komentářů. 
+  Připojte se k nám a užijte si cestu světem kódu s úsměvem na tváři!
+  """
+
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/pepamraz"
+
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "https://www.youtube.com/@pepa_mraz"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/pepamraz/"
+
 
 [markup]
   [markup.goldmark]
@@ -13,12 +38,3 @@ canonifyURLs = true
 
 [taxonomies]
   social = "social"
-
-[params]
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/pepamraz"
-
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/pepamraz"
