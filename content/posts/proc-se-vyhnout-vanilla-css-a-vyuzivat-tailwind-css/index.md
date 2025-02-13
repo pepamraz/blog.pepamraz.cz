@@ -6,7 +6,7 @@ title = 'Proč se vyhnout vanilla CSS a využívat Tailwind CSS 🌊'
   image = "images/tailwind-css-thumbnail.webp"
   alt = "Tailwind CSS - moderní stylování"
   caption = "Ukázka stylování s Tailwind CSS"
-  relative = false  # Pokud je obrázek v `static/`
+  relative = false
 +++
 
 ## Kde se CSS vzalo? 🤷🏻‍♂️
