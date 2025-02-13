@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>blog.pepamraz.cz</title>
+    <title>Sarkastický blog o programování - blog.pepamraz.cz 💻</title>
     <link>https://blog.pepamraz.cz/</link>
-    <description>Recent content on blog.pepamraz.cz</description>
+    <description>Recent content on Sarkastický blog o programování - blog.pepamraz.cz 💻</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>cs</language>
     <lastBuildDate>Wed, 05 Feb 2025 02:57:15 +0100</lastBuildDate>
