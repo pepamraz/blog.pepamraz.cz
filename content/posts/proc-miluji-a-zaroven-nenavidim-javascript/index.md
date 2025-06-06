@@ -1,6 +1,6 @@
 +++
 date = '2025-02-10T05:01:04+01:00'
-draft = true
+draft = false
 title = 'Proč miluji a zároveň nenávidím JavaScript 😡💛'
 [cover]
   image = "images/proc-miluji-a-nenavidim-javascript-thumbnail.jpg"
