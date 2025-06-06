@@ -5,6 +5,7 @@ title = 'Sarkastický blog o programování - blog.pepamraz.cz 💻'
 theme = 'PaperMod'
 relativeURLs = true
 canonifyURLs = true
+ignoreLogs = ['warning-partial-superfluous-prefix']
 
 [params]
 [params.homeInfoParams]
