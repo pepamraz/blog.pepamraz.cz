@@ -14,9 +14,10 @@ git add .
 git commit -m "Deploy Hugo site"
 
 # Push to gh-pages branch
-git push origin gh-pages
+git push origin `gh-pages`
 
 # Return to the main directory
 cd ..
 
 echo "🚀 Deployment complete!"
+read -p
